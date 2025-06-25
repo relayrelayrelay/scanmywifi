@@ -1,35 +1,29 @@
-# Android
-build/
-.gradle/
+# Android Studio
 *.iml
-.idea/
+.gradle/
+build/
 local.properties
+.idea/
 
-# Kotlin
+# Kotlin/Java compiled files
 *.class
+*.dex
+
+# Logs
 *.log
 
 # Dependency directories
 /node_modules
 /app/build
 
-# Gradle
-.gradle
-gradle/
-
-# macOS
+# OS generated files
 .DS_Store
+Thumbs.db
 
-# Logging
-*.log
+# Gradle build output
+/captures
+.externalNativeBuild
+.caches
 
-# Test coverage
-coverage/
-reports/
-
-# Environment files
-.env
-
-# Misc
-*.swp
-*.swo
+# Sensitive information
+*.env
