@@ -1,39 +1,28 @@
 # Android Studio
-.idea/
 *.iml
-out/
-
-# Gradle
-.gradle/
-build/
-
-# Local configuration file
-local.properties
-
-# Log files
-*.log
-
-# Android Studio captures
-captures/
-
-# macOS
+.gradle
+/local.properties
+/.idea/
 .DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin
+# Kotlin/Java
 *.class
-
-# Mobile Tools
-.mtj.tmp/
-
-# Package Files
+*.log
 *.jar
-*.war
-*.ear
 *.aar
+*.dex
 
-# Virtual machine crash logs
-hs_err_pid*
+# Dependency directories
+/node_modules
+/app/build/
+/app/src/test/resources/
 
-# Android build output
-bin/
-gen/
+# Misc
+*.hprof
+*.backup
+*.swp
+*.swo
