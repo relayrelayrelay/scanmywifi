@@ -12,33 +12,17 @@
 # Kotlin/Java
 *.class
 *.log
-*.tmp
-*.swp
+*.kt.sb
 
 # Dependency directories
 node_modules/
-vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Compiled files
-bin/
-out/
-target/
-dist/
-
-# Local configuration files
-local.properties
-
-# Environment files
+# Misc
 .env
-
-# Logging files
-*.log
-
-# Temporary files
-*.tmp
-*~
-
-# Testing
-.pytest_cache/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
