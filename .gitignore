@@ -8,10 +8,9 @@ local.properties
 # Kotlin/Java
 *.class
 *.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
 
 # Dependency directories
 /node_modules
@@ -22,26 +21,18 @@ Thumbs.db
 /build
 /captures
 
-# Log files
+# macOS
+.DS_Store
+
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Android Studio Navigation editor temp files
-.navigation/
+# Environment files
+.env
 
-# Android Studio captures folder
-/captures
-
-# IntelliJ
-*.ipr
-*.iws
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-
-# NDK
-obj/
-
-# Misc
-.classpath
-.project
-.settings/
+# Test coverage
+coverage/
