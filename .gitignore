@@ -1,34 +1,81 @@
 # Android Studio
 *.iml
-.gradle/
-build/
-captures/
-.externalNativeBuild/
-.cxx/
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
 
-# Kotlin/Java
+# Kotlin/Android specific
 *.class
-*.jar
+*.log
+*.apk
+*.aar
 *.dex
+bin/
+gen/
 
-# Local configuration file
-local.properties
+# Dependency directories
+node_modules/
+
+# Compiled class files
+*.class
 
 # Log files
 *.log
 
-# Intellij
-.idea/
-*.ipr
-*.iws
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Gradle
-.gradle
-/build
-
-# Virtual Machine crash logs
+# Virtual machine crash logs
 hs_err_pid*
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures/
+
+# IntelliJ
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+
+# Sensitive or high-churn files
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio
+.externalNativeBuild
+.cxx/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Virtual Environment
+venv/
+.env
