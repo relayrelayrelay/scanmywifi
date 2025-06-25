@@ -1,36 +1,35 @@
-# Android Studio
+# Android
+build/
+.gradle/
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+local.properties
 
-# Gradle files
-gradle/
-gradlew
-gradlew.bat
+# Kotlin
+*.class
+*.log
 
 # Dependency directories
 /node_modules
-/app/build/
+/app/build
 
-# Logs
+# Gradle
+.gradle
+gradle/
+
+# macOS
+.DS_Store
+
+# Logging
 *.log
 
-# Virtual environments
-venv/
+# Test coverage
+coverage/
+reports/
+
+# Environment files
 .env
 
-# Kotlin/Android specific
-*.apk
-*.aar
-*.dex
-*.class
-
-# Test reports and coverage
-/test-results/
-/coverage/
+# Misc
+*.swp
+*.swo
