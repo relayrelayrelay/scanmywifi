@@ -5,46 +5,26 @@ build/
 .idea/
 local.properties
 
-# Kotlin/Java
+# Kotlin
 *.class
 *.log
-
-# Dependency directories
-/node_modules
-/captures
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Gradle
-.gradle
-/build
-/captures
+# Dependency directories
+node_modules/
 
-# Android build
-/app/build
-/app/release
+# Build output
+bin/
+out/
+target/
 
-# Logs
-*.log
+# Testing
+.coverage
+.pytest_cache/
 
-# Local configuration file
-local.properties
-
-# Android Studio Navigation editor temp files
-.navigation/
-
-# Android Studio captures folder
-/captures
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
-.cxx/
+# Misc
+*.swp
+.env
