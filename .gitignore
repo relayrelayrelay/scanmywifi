@@ -1,0 +1,52 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Android build output
+bin/
+gen/
+out/
+
+# Android specific
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Virtual Machine crash logs
+hs_err_pid*
+
+# Dependency directories
+/node_modules
+/app/build
+
+# Environment files
+.env
+
+# Temp files
+*.swp
+*~
+
+# Testing
+/coverage
