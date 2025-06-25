@@ -5,25 +5,29 @@ build/
 local.properties
 .idea/
 
-# Kotlin/Java compiled files
-*.class
-*.dex
+# Gradle
+bin/
+gen/
+out/
 
-# Logs
+# Kotlin/Java
+*.class
 *.log
 
 # Dependency directories
-/node_modules
-/app/build
+node_modules/
+
+# Build output
+target/
+dist/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Gradle build output
-/captures
-.externalNativeBuild
-.caches
-
-# Sensitive information
-*.env
