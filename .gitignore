@@ -1,37 +1,29 @@
 # Android Studio
+.idea/
 *.iml
 .gradle/
 build/
 captures/
-.externalNativeBuild/
-.cxx/
 
-# Kotlin/Java
-*.class
-*.jar
-*.war
-*.ear
-*.log
-
-# Dependency directories
-node_modules/
-app/build/
-
-# IDE files
-.idea/
-*.ipr
-*.iws
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Gradle
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# Kotlin/Android specific
+*.class
+*.log
+*.apk
+*.aar
+*.dex
+*.module
 
-# Android build
-/app/build
-/build
+# Dependency directories
+app/build/
+app/src/main/gen/
+node_modules/
+
+# Local configuration file
+local.properties
+
+# Proguard
+proguard/
