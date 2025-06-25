@@ -1,32 +1,30 @@
 # Android Studio
 *.iml
-.gradle/
-build/
-.idea/
-local.properties
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin and Java
+# Kotlin and Android specific
+bin/
+out/
 *.class
 *.log
 
 # Dependency directories
 node_modules/
-app/build/
 
-# Logging and crash files
-*.log
-.DS_Store
+# Gradle
+.gradle/
+build/
 
-# Kotlin build files
-bin/
-out/
+# Kotlin compilation
+*.kotlin_module
 
-# Gradle files
-.gradle
-gradle/
-gradlew
-gradlew.bat
-
-# Environment and sensitive files
+# Sensitive information
 .env
 *.jks
