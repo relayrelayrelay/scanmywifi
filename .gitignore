@@ -1,20 +1,53 @@
 # Android Studio
 *.iml
-.gradle/
-build/
-captures/
-local.properties
-.idea/
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin
+# Kotlin/Java
 *.class
 *.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
 # Dependency directories
-/node_modules
-/app/build
+node_modules/
+jspm_packages/
 
-# Misc
-.DS_Store
+# Testing
+/test-results/
+/coverage/
+
+# Env files
 .env
-__pycache__
+
+# Compiled files
+/bin/
+/out/
+/target/
+/dist/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
