@@ -1,29 +1,31 @@
 # Android specific
-*.iml
-.gradle/
 build/
-captures/
-.externalNativeBuild
-.cxx
-
-# Kotlin/Android Studio
-*.class
+.gradle/
+*.iml
 .idea/
 local.properties
+
+# Kotlin/Java
+*.class
+*.log
 
 # Dependency directories
 /node_modules
 /app/build
+/captures
 
-# Logging
-*.log
-
-# Environment files
+# Sensitive files
 .env
+*.keystore
 
-# macOS
+# Logging and system files
 .DS_Store
+Thumbs.db
 
-# Kotlin test/build artifacts
-target/
-out/
+# Test coverage
+coverage/
+.coverage
+
+# Temporary files
+*.tmp
+*.bak
