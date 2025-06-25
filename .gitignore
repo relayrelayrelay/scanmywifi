@@ -1,39 +1,35 @@
-# Android specific
+# Android Studio
 *.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Gradle
+*.log
 .gradle/
 build/
-captures/
-local.properties
-.idea/
-bin/
-gen/
 
-# Kotlin/Java
+# Kotlin
 *.class
-*.jar
-*.war
-*.ear
-*.logs
+*.kotlin_module
 
 # Dependency directories
 node_modules/
-app/build/
-
-# Sensitive or local files
-.env
-*.keystore
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Temp files
-*.swp
-*.swo
-*~
-
-# Logging
-*.log
 
 # Testing
-.coverage
+/test-results/
+/test-reports/
+
+# Secrets and local configs
+*.env
+local.properties
+
+# Compiled files
+bin/
+out/
+dist/
