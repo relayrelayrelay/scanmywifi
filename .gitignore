@@ -1,41 +1,45 @@
 # Android Studio
-.idea/
 *.iml
 .gradle/
 build/
-captures/
+local.properties
 
-# Kotlin/Android specific
+# Kotlin/Java
 *.class
 *.log
-*.apk
-*.aar
-*.dex
+
+# Intellij
+.idea/
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Gradle
+.gradle
+/build
+
+# Android
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules
-/android/app/build
-/android/build
+node_modules/
 
 # Logs
-logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Temp files
+*.tmp
+*.bak
+
+# Test reports
+test-results/
+
+# NDK
+obj/
