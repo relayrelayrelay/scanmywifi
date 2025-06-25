@@ -1,40 +1,27 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-
-# Kotlin and Java
-*.class
-*.log
-*.tmp
-*.bak
-*.swp
-
-# Dependency directories
-/node_modules/
-/app/build/
-/app/src/main/assets/
-/libs/
-
-# Sensitive information
-*.env
-*.key
-*.p12
-
-# Test reports and logs
-/app/test-results/
-/reports/
-*.hprof
-
-# Kotlin compilation
-*.kotlin_module
-
-# Gradle
 .gradle/
 build/
+local.properties
+.idea/
+
+# Kotlin
+*.class
+*.kotlin_module
+
+# Dependency directories
+/node_modules
+/app/build
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Kotlin test output
+target/
+
+# Misc
+.env
