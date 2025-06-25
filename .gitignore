@@ -1,50 +1,50 @@
 # Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.gradle/
+build/
+captures/
 
-# Kotlin/Java
-*.class
+# Gradle files
+gradle/
+gradlew
+gradlew.bat
+
+# Local configuration file
+local.properties
+
+# Log Files
 *.log
-*.ctxt
-.mtj.tmp/
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+
+# Android generated files
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules/
-/app/build/
-/app/src/main/assets/
+node_modules/
 
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Virtual machine files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Environment files
+# Kotlin/Java compiled files
+*.class
+*.dex
+
+# Sensitive or local files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+*.keystore
 
-# Temp and system files
-.tmp/
-.temp/
-*.swp
-.vscode/
-.settings/
+# Temporary files
+*.tmp
 *.bak
+
+# Test results and coverage
+.coverage
+test-results/
+
+# Virtual environments
+venv/
+env/
