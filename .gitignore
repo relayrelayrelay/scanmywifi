@@ -1,29 +1,25 @@
 # Android Studio
-.idea/
 *.iml
 .gradle/
 build/
-captures/
+.idea/
+local.properties
 
 # Kotlin/Java
 *.class
+*.log
+
+# Dependency directories
+/node_modules
+/captures
+
+# Logging
 *.log
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Dependency directories
-/node_modules
-/app/build
-
-# Logs
-*.log
-
-# Local configuration file
-local.properties
-
 # Gradle
-gradle/
-gradlew
-gradlew.bat
+.gradle
+/build
