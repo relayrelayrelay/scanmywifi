@@ -3,22 +3,35 @@
 *.iml
 .gradle/
 build/
-captures/
+local.properties
 
-# Kotlin/Java
+# Kotlin
 *.class
-*.log
+*.kotlin_module
 
 # Gradle
-*.apk
-*.aar
-*.dex
+gradle/
+gradlew
+gradlew.bat
 
-# Sensitive information
-*.env
+# Build output
+bin/
+out/
+target/
+
+# Logs
+*.log
 
 # Dependency directories
 node_modules/
 
-# Misc
+# macOS
 .DS_Store
+
+# Testing
+coverage/
+test-results/
+
+# Sensitive data
+.env
+*.keystore
