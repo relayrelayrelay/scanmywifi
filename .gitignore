@@ -2,31 +2,28 @@
 *.iml
 .gradle/
 build/
-.idea/
 local.properties
+.idea/
 
-# Compiled files
+# Kotlin/Java
 *.class
-*.dex
+*.jar
+*.war
+*.ear
+*.logs
+
+# Android
+bin/
+gen/
+out/
+release/
+debug/
 
 # Dependency directories
-/node_modules
-/app/build
+node_modules/
 
-# Logging
-*.log
-
-# System files
+# Miscellaneous
 .DS_Store
-Thumbs.db
-
-# Kotlin/Android specific
-*.kotlin_module
-app/release/
-
-# Testing
-/test-results/
-/reports/
-
-# Environment files
 .env
+*.log
+*.swp
