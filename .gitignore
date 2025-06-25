@@ -1,37 +1,41 @@
-# Android specific
+# Android Studio
 *.iml
 .gradle/
 build/
-app/build/
 local.properties
 .idea/
-.DS_Store
 
-# Kotlin/Java specific
+# Kotlin/Java compiled files
 *.class
+*.dex
+
+# Logs
 *.log
+
+# Generated files
+bin/
+gen/
+out/
 
 # Dependency directories
-node_modules/
-jspm_packages/
+app/build/
+app/libs/
 
-# Test coverage
-coverage/
-.nyc_output/
+# Virtual machine crash logs
+hs_err_pid*
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# macOS
+.DS_Store
 
-# Temp files
-*.tmp
-*.bak
-*.swp
-*~.nib
+# Gradle
+.gradle
+gradle/
+gradlew
+gradlew.bat
 
-# Logging
-logs/
-*.log
+# Kotlin caches
+.kotlin/
+
+# Android build output
+*.apk
+*.aab
