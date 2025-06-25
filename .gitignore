@@ -5,25 +5,43 @@
 build/
 captures/
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Kotlin/Android specific
+# Kotlin/Java compilation
 *.class
-*.log
-*.apk
-*.aar
 *.dex
-*.module
+*.apk
 
 # Dependency directories
 app/build/
-app/src/main/gen/
-node_modules/
+.cxx/
+
+# Logging
+*.log
 
 # Local configuration file
 local.properties
 
-# Proguard
-proguard/
+# macOS
+.DS_Store
+
+# Virtual environment
+venv/
+__pycache__/
+
+# Gradle
+.gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Build output
+bin/
+out/
+target/
+
+# Sensitive information
+*.env
+secrets.json
+
+# Test reports
+test-results/
+coverage/
