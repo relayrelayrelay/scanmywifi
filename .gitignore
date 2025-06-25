@@ -1,31 +1,38 @@
-# Android Studio files
-.idea/
+# Android Studio
 *.iml
 .gradle/
 build/
-captures/
+local.properties
+.idea/
 
-# Kotlin/Java compilation outputs
+# Kotlin/Java
 *.class
-*.dex
-*.apk
+*.log
 
 # Dependency directories
-/node_modules
-/app/build
-/app/src/main/gen
+node_modules/
+lib/
 
-# Logging files
+# Compiled files
+bin/
+out/
+target/
+
+# Temp files
+*.tmp
+*.bak
+
+# Logs
+logs/
 *.log
+
+# Test reports
+test-results/
+coverage/
+
+# Environment files
+.env
 
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Sensitive information
-*.env
-*.keystore
-
-# Test-related
-/app/build/reports
-/app/build/test-results
