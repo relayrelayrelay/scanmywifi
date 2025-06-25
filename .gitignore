@@ -1,32 +1,16 @@
-# Android specific
-*.iml
-.gradle/
-build/
-captures/
-local.properties
-.idea/
-bin/
-gen/
-
-# Kotlin/Java specific
-*.class
-*.log
-
-# Dependency directories
 node_modules/
-jspm_packages/
-
-# Testing
-.pytest_cache/
-__pycache__/
-*.pyc
-.coverage
-htmlcov/
-
-# Environment and sensitive files
+dist/
 .env
-*.keystore
-
-# Miscellaneous
+__pycache__/
+*.log
 .DS_Store
-Thumbs.db
+build/
+.idea/
+.vscode/
+*.iml
+*.class
+*.apk
+*.aar
+*.dex
+*.ap_
+local.properties
