@@ -2,13 +2,15 @@
 *.iml
 .gradle/
 build/
-captures/
-.idea/
+app/build/
 local.properties
+.idea/
+.DS_Store
 
 # Kotlin/Java
 *.class
 *.log
+*.ctxt
 *.jar
 *.war
 *.nar
@@ -17,32 +19,20 @@ local.properties
 *.tar.gz
 *.rar
 
-# Gradle
+# Virtual machine crash logs
+hs_err_pid*
+
+# Android
 bin/
+gen/
 out/
 release/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-logs/
-*.log
-
-# Dependencies
+# Dependency directories
 node_modules/
+jspm_packages/
 
-# Build output
-dist/
-target/
-
-# Environment files
+# Sensitive or high-churn files
 .env
 .env.local
 .env.development.local
@@ -51,10 +41,8 @@ target/
 
 # Testing
 coverage/
-.nyc_output/
+.test-results/
 
-# Temp files
-*.tmp
-*.bak
+# Misc
 *.swp
-*~
+.vscode/
