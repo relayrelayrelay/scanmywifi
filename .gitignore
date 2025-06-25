@@ -1,31 +1,31 @@
-# Android
+# Android Studio files
+.idea/
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
 captures/
-.externalNativeBuild/
 
-# Kotlin
+# Kotlin/Java compilation outputs
 *.class
-*.log
+*.dex
+*.apk
 
 # Dependency directories
 /node_modules
-/android/app/build
-/android/build
+/app/build
+/app/src/main/gen
 
-# Test files
-**/test-results/
-**/test-report/
+# Logging files
+*.log
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Sensitive information
+*.env
+*.keystore
 
-# Misc
-.env
+# Test-related
+/app/build/reports
+/app/build/test-results
