@@ -1,17 +1,16 @@
-# Android Studio files
+# Android Studio
 *.iml
 .gradle/
 build/
-local.properties
+captures/
 .idea/
+local.properties
 
-# Kotlin/Java compiled files
+# Kotlin
 *.class
-bin/
-out/
-
-# Dependency directories
-node_modules/
+*.jar
+*.war
+*.ear
 
 # Logs
 *.log
@@ -20,13 +19,22 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Testing
-coverage/
-test-results/
+# Dependency directories
+node_modules/
+jspm_packages/
 
-# Secrets and environment files
+# Kotlin/Android build output
+bin/
+out/
+gen/
+app/build/
+
+# Gradle files
+.gradle
+gradle/
+gradlew
+gradlew.bat
+
+# Misc
 .env
-*.keystore
-
-# Virtual machine files
-.kotlin/
+*.hprof
