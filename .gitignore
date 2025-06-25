@@ -2,32 +2,38 @@
 *.iml
 .gradle
 /local.properties
-.idea/
-build/
-captures/
-
-# OS generated files
+/.idea/
 .DS_Store
-Thumbs.db
+/build
+/captures
+.externalNativeBuild
+.cxx
 
-# Kotlin/Android specific
+# Kotlin and Java
 *.class
 *.log
+*.tmp
+*.bak
+*.swp
 
 # Dependency directories
-/node_modules
-/app/build
-/app/src/androidTest
-/app/src/test
+/node_modules/
+/app/build/
+/app/src/main/assets/
 
-# Compiled files
-*.dex
-*.apk
-*.ap_
-
-# Virtual machine crash logs
-hs_err_pid*
+# Test reports and logs
+/app/test-results/
+/app/reports/
 
 # Sensitive information
-.env
-*.jks
+*.env
+*.keystore
+google-services.json
+
+# Virtual environment
+venv/
+.venv/
+
+# Misc
+.DS_Store
+Thumbs.db
