@@ -1,43 +1,31 @@
 # Android Studio
-.idea/
 *.iml
-out/
-
-# Gradle
 .gradle/
 build/
-
-# Local configuration file
 local.properties
+.idea/
 
-# Log files
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Compiled class files
+# Kotlin/Java
 *.class
+*.log
+*.dex
+*.jar
 
-# Android build outputs
+# Build outputs
 bin/
 gen/
-apk/
-release/
-
-# Virtual machine crash logs
-hs_err_pid*
+out/
+app/build/
 
 # Dependency directories
 node_modules/
 
-# Environment files
+# Testing
+.coverage
+reports/
+
+# Misc
+.DS_Store
 .env
-
-# Temporary files
-*.tmp
-*.bak
-
-# Test coverage reports
-coverage/
+*.swp
+*.swo
