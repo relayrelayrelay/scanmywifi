@@ -9,22 +9,21 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin/Java
+# Kotlin/Java compiled files
 *.class
-*.log
-*.jar
-*.war
-*.ear
-*.nar
-hs_err_pid*
+*.dex
+*.apk
 
 # Dependency directories
-node_modules/
-vendor/
+/node_modules/
+/app/build/
 
-# Testing
-/test-results/
-/test-report/
+# Logging files
+*.log
 
-# Env files
-.env
+# Gradle
+.gradle/
+build/
+
+# Local configuration file
+local.properties
