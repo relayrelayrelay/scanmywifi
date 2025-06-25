@@ -1,38 +1,52 @@
 # Android Studio
+.idea/
 *.iml
+*.iws
+*.ipr
+
+# Gradle
 .gradle/
 build/
-captures/
+out/
+
+# Local configuration file
 local.properties
 
-# IntelliJ
-.idea/
-*.ipr
-*.iws
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Kotlin/Android specific
-*.class
+# Log files
 *.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+*.jks
+*.keystore
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+.cxx/
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# Android Profiling
+*.hprof
+
+# Virtual environment
+venv/
+.env
 
 # Dependency directories
 node_modules/
 jspm_packages/
 
-# Compiled files
-bin/
-out/
-
-# Logs
-logs
-*.log
-
-# Environment files
-.env
-
-# Testing
-coverage/
-.nyc_output/
+# Kotlin build
+target/
