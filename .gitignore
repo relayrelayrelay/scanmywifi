@@ -1,8 +1,38 @@
-node_modules/
-dist/
-.env
-__pycache__/
+# Android Studio
+*.iml
+.gradle/
+build/
 .idea/
-.vscode/
+local.properties
+
+# Kotlin/Java
+*.class
 *.log
+*.jar
+*.war
+*.ear
+
+# Build output
+bin/
+out/
+target/
+
+# Dependency directories
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Android specific
+app/build/
+.externalNativeBuild/
+captures/
+
+# Testing
+.coverage
+reports/
