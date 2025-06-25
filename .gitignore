@@ -1,37 +1,37 @@
-# Android Studio
-.idea/
+# Android specific
 *.iml
 .gradle/
 build/
+app/build/
 local.properties
+.idea/
+.DS_Store
 
-# Kotlin
+# Kotlin/Java specific
 *.class
-*.kotlin_module
-
-# Gradle
-gradle/
-gradlew
-gradlew.bat
-
-# Build output
-bin/
-out/
-target/
-
-# Logs
 *.log
 
 # Dependency directories
 node_modules/
+jspm_packages/
 
-# macOS
-.DS_Store
-
-# Testing
+# Test coverage
 coverage/
-test-results/
+.nyc_output/
 
-# Sensitive data
+# Environment files
 .env
-*.keystore
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Logging
+logs/
+*.log
