@@ -1,35 +1,52 @@
 # Android Studio
-.idea/
 *.iml
-out/
-
-# Gradle
 .gradle/
 build/
+local.properties
+.idea/
 
-# Android build
-/app/build/
+# Gradle
+/gradle/
+gradlew
+gradlew.bat
 
-# Kotlin and Java
+# Compiled files
 *.class
+*.dex
+*.apk
+
+# Log files
 *.log
 
-# Local configuration file
-local.properties
+# Virtual machine crash logs
+hs_err_pid*
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# Android generated files
+bin/
+gen/
+out/
 
 # Dependency directories
-/node_modules/
+/node_modules
+/captures
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+/captures
+
+# Mac files
+.DS_Store
+
+# External native build folder
+/app/build/intermediates
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Kotlin
+*.kotlin_module
 
 # Testing
-/coverage/
-
-# Logs
-*.log
-
-# Virtual environment
-venv/
-__pycache__/
+.coverage/
