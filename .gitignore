@@ -1,45 +1,33 @@
 # Android Studio
 *.iml
-.gradle/
+.gradle
+/local.properties
+.idea/
 build/
-local.properties
+captures/
 
-# Kotlin/Java
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kotlin/Android specific
 *.class
 *.log
 
-# Intellij
-.idea/
-*.ipr
-*.iws
-
-# macOS
-.DS_Store
-
-# Gradle
-.gradle
-/build
-
-# Android
-bin/
-gen/
-out/
-
 # Dependency directories
-node_modules/
+/node_modules
+/app/build
+/app/src/androidTest
+/app/src/test
 
-# Logs
-*.log
+# Compiled files
+*.dex
+*.apk
+*.ap_
 
-# Environment files
+# Virtual machine crash logs
+hs_err_pid*
+
+# Sensitive information
 .env
-
-# Temp files
-*.tmp
-*.bak
-
-# Test reports
-test-results/
-
-# NDK
-obj/
+*.jks
