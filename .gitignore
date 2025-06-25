@@ -1,81 +1,36 @@
 # Android Studio
 *.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
+.gradle/
+build/
+captures/
+.idea/
+local.properties
 
-# Kotlin/Android specific
+# Kotlin
 *.class
+*.kotlin_module
+
+# Logs
 *.log
-*.apk
-*.aar
-*.dex
-bin/
-gen/
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Dependency directories
 node_modules/
+jspm_packages/
 
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# Virtual machine crash logs
-hs_err_pid*
-
-# Android Studio Navigation editor temp files
-.navigation/
-
-# Android Studio captures folder
-/captures/
-
-# IntelliJ
-*.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/jarRepositories.xml
-
-# Sensitive or high-churn files
-.idea/dataSources/
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# External native build folder generated in Android Studio
-.externalNativeBuild
-.cxx/
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Freeline
-freeline.py
-freeline/
-freeline_project_description.json
-
-# fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
-fastlane/readme.md
-
-# Virtual Environment
-venv/
+# Environment files
 .env
+
+# Build output
+out/
+dist/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.bak
