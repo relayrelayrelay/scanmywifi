@@ -2,35 +2,33 @@
 *.iml
 .gradle/
 build/
-local.properties
-.idea/
+captures/
+.externalNativeBuild/
+.cxx/
 
-# Kotlin
+# Kotlin/Java
 *.class
-*.kotlin_module
+*.jar
+*.dex
 
-# Compiled files
-bin/
-out/
-target/
+# Local configuration file
+local.properties
 
-# Dependency directories
-node_modules/
-
-# Logs
+# Log files
 *.log
+
+# Intellij
+.idea/
+*.ipr
+*.iws
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Testing
-coverage/
-.test-results/
+# Gradle
+.gradle
+/build
 
-# Environment files
-.env
-
-# Virtual environments
-venv/
-.venv/
+# Virtual Machine crash logs
+hs_err_pid*
