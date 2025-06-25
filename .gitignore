@@ -1,43 +1,34 @@
 # Android Studio
-.idea/
 *.iml
 .gradle/
 build/
-captures/
-
-# Gradle files
-gradle/
-gradlew
-gradlew.bat
-
-# Local configuration file
 local.properties
+.idea/
 
-# Log files
+# Kotlin/Java
+*.class
 *.log
-
-# Android generated files
-bin/
-gen/
-out/
-
-# Virtual Machine files
-.DS_Store
-.externalNativeBuild
-.cxx
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
 # Dependency directories
-/node_modules
-/app/build
+node_modules/
+vendor/
 
-# Kotlin specific
-*.kotlin_module
-
-# Test results
-test-results/
-
-# Environment files
+# Virtual environment
+venv/
 .env
 
-# Misc
-*.hprof
+# Logging
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
