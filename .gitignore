@@ -5,19 +5,14 @@ build/
 local.properties
 .idea/
 
-# Kotlin
-*.class
-*.kotlin_module
-
-# Gradle
-gradle/
+# Gradle files
+*.gradle
 gradlew
 gradlew.bat
 
-# Build output
-bin/
-out/
-target/
+# Java/Kotlin compiled files
+*.class
+*.dex
 
 # Logs
 *.log
@@ -27,4 +22,13 @@ target/
 Thumbs.db
 
 # Dependency directories
-node_modules/
+/node_modules
+/captures
+
+# Testing
+/reports
+/test-results
+
+# Sensitive or local files
+.env
+*.keystore
