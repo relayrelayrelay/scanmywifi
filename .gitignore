@@ -9,34 +9,57 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin and Java
+# Kotlin/Java
 *.class
 *.log
+*.tmp
+*.bak
+*.swp
 
 # Dependency directories
 /node_modules/
 /app/build/
-/app/src/main/res/drawable/
-/app/src/main/res/layout/
+/app/src/main/gen/
 
 # Gradle
 .gradle/
-gradle/
-gradlew
-gradlew.bat
+build/
+
+# Local configuration file
+local.properties
 
 # Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Environment files
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
 .env
+.env.test
 
-# Build directories
-build/
-dist/
-out/
-
-# Temp files
-*.tmp
-*.bak
-*~
+# Temporary files
+tmp/
+temp/
