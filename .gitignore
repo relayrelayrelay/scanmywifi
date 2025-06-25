@@ -5,43 +5,43 @@
 build/
 captures/
 
-# Kotlin/Java compilation
-*.class
-*.dex
-*.apk
-
-# Dependency directories
-app/build/
-.cxx/
-
-# Logging
-*.log
+# Gradle
+out/
 
 # Local configuration file
 local.properties
 
-# macOS
+# Logs
+*.log
+
+# Virtual Machine
 .DS_Store
 
-# Virtual environment
-venv/
-__pycache__/
+# Kotlin compiled files
+*.class
 
-# Gradle
-.gradle
-gradle/
-gradlew
-gradlew.bat
-
-# Build output
+# Android build
 bin/
-out/
-target/
+gen/
+app/build/
 
-# Sensitive information
-*.env
-secrets.json
+# Dependencies
+/node_modules
+/app/node_modules
 
-# Test reports
-test-results/
-coverage/
+# Testing
+/coverage
+.pytest_cache/
+
+# Environment files
+.env
+
+# Kotlin and Android specific
+*.hprof
+app/.cxx/
+*.apk
+*.aar
+*.dex
+
+# Virtual Machine crash logs
+hs_err_pid*
