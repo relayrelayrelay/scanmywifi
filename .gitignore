@@ -1,31 +1,38 @@
 # Android Studio
 .idea/
 *.iml
-out/
-
-# Gradle
 .gradle/
 build/
-
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# Android generated files
-bin/
-gen/
 captures/
 
-# Local configuration file
-local.properties
+# Gradle
+/local.properties
+/gradle.properties
 
-# macOS
+# Kotlin/Java
+*.class
+*.log
+*.dex
+
+# Compiled files
+bin/
+out/
+target/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment and sensitive files
+.env
+*.keystore
+
+# System files
 .DS_Store
+Thumbs.db
 
-# Kotlin build files
-*.kotlin_module
+# Logging
+*.log
 
-# Testing
-.coverage
+# Test coverage
+coverage/
