@@ -1,20 +1,38 @@
-# Android specific
-/build
+# Android Studio
 *.iml
 .gradle/
-.idea/
-local.properties
+build/
+captures/
+.externalNativeBuild/
 
-# Kotlin/Java specific
+# Kotlin/Java compiled files
 *.class
+*.dex
+
+# Intellij
+.idea/
+*.ipr
+*.iws
+
+# Gradle
+gradle/
+.gradle
+/local.properties
+/build
+/captures
+
+# macOS
+.DS_Store
+
+# Logs
 *.log
 
 # Dependency directories
 /node_modules
-/android/app/build
-/android/build
+/jspm_packages
 
-# Misc
-.DS_Store
+# Environment files
 .env
-*.hprof
+
+# Testing
+/coverage
