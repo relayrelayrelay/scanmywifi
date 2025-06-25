@@ -1,24 +1,24 @@
-# Android
+# Android Studio
+*.iml
 .gradle/
 build/
-*.iml
 .idea/
 local.properties
 
 # Kotlin
 *.class
-*.log
-
-# macOS
-.DS_Store
+*.kotlin_module
 
 # Dependency directories
 node_modules/
-jspm_packages/
+app/build/
 
-# Test reports
-test-results/
-coverage/
+# Logging
+*.log
 
 # Environment files
 .env
+
+# OS generated files
+.DS_Store
+Thumbs.db
