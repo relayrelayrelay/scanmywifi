@@ -9,24 +9,31 @@
 .externalNativeBuild
 .cxx
 
-# Kotlin/Java
-*.class
-*.log
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Gradle
+/app/build/
+/app/gradle/
+/.gradle/
 
 # Dependency directories
-node_modules/
-vendor/
+/node_modules/
 
-# Logs and databases
+# Logs
 *.log
-*.sqlite
 
-# Environment files
+# Virtual environments
 .env
+venv/
+env/
+
+# Compiled class files
+*.class
+
+# Kotlin and Android specific
+*.dex
+*.apk
+*.ap_
+.kotlin/
+
+# Test reports and coverage
+/test-results/
+/coverage/
